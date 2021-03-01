@@ -7,4 +7,4 @@ Steps to clone project
 5) Make sure you have node installed.
 6) Run command npm install
 7) Run command npm start
-8) Header and footer to be used on every page is presenet in src/app/components
+8) Header and footer to be used on every page is present in src/app/components
