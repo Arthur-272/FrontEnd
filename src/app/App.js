@@ -7,6 +7,10 @@ import Sidebar from './components/Sidebar';
 import SettingsPanel from './components/SettingsPanel';
 import Footer from './components/Footer';
 import { withTranslation } from "react-i18next";
+import Discussion from '../app/Discussion/Discussion';
+
+
+
 
 class App extends Component {
   state = {}
@@ -24,9 +28,9 @@ class App extends Component {
         <div className="container-fluid page-body-wrapper">
           
           <div className="main-panel">
-
+            <Discussion/>
             { footerComponent }
-          </div>
+        </div>
         </div>
       </div>
     );
